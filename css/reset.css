@@ -4,11 +4,19 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
-body{
+body {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: darkslategrey;
   color: aliceblue;
+  /*display: flex: O layout flexível permite que os elementos responsivos dentro de um contêiner sejam organizados*/
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
   
 }
