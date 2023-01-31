@@ -23,6 +23,7 @@ main .main-content .text p{
   width: 75%;
   font-size: 1.3em;
   font-weight: 300;
+  line-height: 1.6;
 
 }
 /*CARDS*/
@@ -39,6 +40,7 @@ main .techs .cards-conteiner .card {
   background-color: aliceblue;
   border-radius: 8px;
   margin-right: 1.8em;
+  margin-left: 1.8em;
   cursor: pointer;
   display: flex;
   align-items: center;
